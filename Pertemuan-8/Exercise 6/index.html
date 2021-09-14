@@ -1,0 +1,80 @@
+<!--
+    Nama : Jerico Imanuel Katong
+    About : Membuat Form
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Formulir Calon Pegawai</legend>
+        <label for="nama">Nama : </label>
+        <input id="nama" name="nama" type="text" required >
+
+        <br>
+        <br>
+
+        <label for="alamat">Alamat : </label>
+        <input id="alamat" name="alamat" type="text" required>
+
+        <br>
+        <br>
+
+        <label for="pass">Password : </label>
+        <input id="pass" name="Password" type="password" required>
+
+        <br>
+        <br>
+
+        <label>Jenis Kelamin : </label>
+        <input id="Laki" name="jenis_kelamin" type="radio" value="Laki-Laki" checked>
+        <label for="Laki">Laki - Laki</label>
+        <input id="Perempuan" name="jenis_kelamin" type="radio" value="Perempuan">
+        <label for="Perempuan">Perempuan</label>
+
+        <br>
+        <br>
+
+        <label>Bahasa Pemrograman yang dikuasai : </label>
+        <input id="web" name="languange" type="checkbox" value="Web">
+        <label for="web">Web</label>
+        <input id="mobile" name="languange" type="checkbox" value="MOBILE">
+        <label for="mobile">MOBILE</label>
+        <input id="desktop" name="languange" type="checkbox" value="DESKTOP">
+        <label for="desktop">DESKTOP</label>
+
+        <br>
+        <br>
+
+        <label for="asal">Kota asal : </label>
+        <select name="asal" id="asal">
+            <option value="Semarang">Semarang</option>
+            <option value="Manado">Manado</option>
+            <option value="Ambon">Ambon</option>
+            <option value="Ternate">Ternate</option>
+            <option value="Makasar">Makasar</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="reason">Apa yang Membuat Kami harus memilih Anda?:</label>
+        <br>
+        <textarea name="reason" id="reason" cols="50" rows="10" placeholder="Tulis jawaban Anda disini"></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="proses"> 
+    </fieldset>
+    </form>
+    
+</body>
+</html>
